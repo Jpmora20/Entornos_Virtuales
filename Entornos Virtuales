@@ -1,0 +1,47 @@
+--> CREAR ENTORNO VIRTUAL:
+Python -m venv nombre_entorno.
+-->ACTIVAR ENTORNO VIRTUAL:
+nombre_entorno/Scripts/activate
+
+pip: Instalador de paquetes(librerias) de Python.
+pip list: lista de librerias instaladas.
+--> INSTALAR LIBRERIAS:
+
+pypi.org
+
+pip install nombre_libreria
+pip install libreria libreria2
+pip install libreria == Version
+
+--> LIBRERIAS QUE VAMOS A USAR:
+PANDAS
+MATPLOTLIB
+SEABORN
+
+--> ACTUALIZAR LIBRERIA:
+pip install --upgrade nombre_libreria
+pip install -u nombre_libreria
+
+--> SALIR DEL ENTORNO:
+deactive
+
+--> DESINSTALAR LIBRERIA:
+
+pip uninstall nombre_libreria
+
+--> CREAR ARCHIVO DE REQUERIMIENTOS:
+
+pip frezze > requirements.txt
+
+Va a contener las librerias instalas y sus respectivas versiones.
+En el caso que alguien quiera crear un entorno virutal con mi especificaciones, envio ese archivo, el lo descarga en su entorno virtual, sin necesidad de usar pip install.
+
+--> DESCARGAR ARCHIVO DE REQUERIMENTS:
+
+pip install -r requirements.txt
+
+
+--> CURSO PYTHON:
+Transformacion y manipulacion de datos con pandas y numpy.
+
+https://www.kaggle.com/
